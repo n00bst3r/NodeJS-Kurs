@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landingpage</title>
+</head>
+<body>
+<h2>Hallo Welt: <%= title %></h2>
+<p>Hola! Hallo! Hello!</p>
+<p>Die Liste besteht aus <%= items.length%> Einträgen.</p>
+<ul>
+    <%items.forEach(function(item){%>
+    <li>
+        <%= item%>
+    </li>
+    <% })%>
+</ul>
+<p><b>Beschreibung: </b><%= desc %></p>
+</body>
+</html>
